@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*Reset CSS End*/
+/*Start of my CSS*/
+body {
+  background-color: #f3f5fc;
+}
+.maingridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+}
+.gridContainer1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+.imgLogo {
+  padding: 50px 0 0 50px;
+  margin-bottom: 80px;
+}
+.area {
+  justify-self: end;
+  width: 72%;
+}
+.entradaTexto {
+  border: 0;
+  background: #f3f5fc;
+  color: #0a3871;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  text-transform: lowercase;
+  outline: none;
+  width: 100%;
+  resize: none;
+}
+.entradaTexto::placeholder {
+  background: #f3f5fc;
+  color: #0a3871;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  text-transform: none;
+}
+.gridContainer2 {
+  grid-column: 2/-1;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: baseline;
+}
+.whiteCard {
+  background-color: #ffffff;
+  width: 400px;
+  height: 800px;
+  border-radius: 32px;
+  margin-top: 10%;
+}
+.gridContainer3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: end;
+  align-self: end;
+  margin-bottom: 70px;
+}
+.Ad {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+.encriptar {
+  background: #0a3871;
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 24px;
+  border: 0;
+  width: 328px;
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: center;
+  margin-right: 24px;
+}
+.desencriptar {
+  background: #d8dfe8;
+  color: #0a3871;
+  padding: 24px;
+  border-radius: 24px;
+  width: 328px;
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #0a3871;
+}
