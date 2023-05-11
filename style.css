@@ -179,6 +179,28 @@ body {
   border-radius: 32px;
   margin-top: 10%;
 }
+.muñeco {
+  margin: 39% 0 32px 8%;
+}
+.p1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0 auto 16px auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #343A40;
+  line-height: 29px;
+}
+.p2 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #495057;
+  Line-height: 24px;
+}
+
+
 .gridContainer3 {
   grid-column: 1/2;
   grid-row: 2/3;
